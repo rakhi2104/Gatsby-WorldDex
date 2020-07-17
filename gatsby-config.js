@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby - Global Index`,
-    description: `K`,
+    title: `Gatsby - WorldDex`,
+    description: `An index of Countries in the World`,
     author: `@rakhi2104`,
   },
   plugins: [
@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-source-graphql`,
       options: {
-        typeName: `GlobalDex`,
+        typeName: `WorldDex`,
         fieldName: `content`,
         url: `https://countries.trevorblades.com/`,
       },
